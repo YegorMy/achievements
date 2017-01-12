@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.achieve {
+    width: 917px;
+    background: #b3b4b3;
+    position: relative;
+}
+
+.achieve__wrapper {
+    padding-top: 35px;
+}
+
+.achieve__text, .achieve__image {
+    float: left;
+}
+
+.achieve__text {
+    padding-top: 15px;
+    padding-left: 50px;
+    width: 550px;
+    color: #353534;
+    min-height: 293px;
+}
+
+.achieve__heading-text {
+    font-size: 70pt;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: 'Impact', sans-serif;
+    font-style: italic;
+}
+.achieve__heading-text--small {
+    font-size: 50pt;
+    line-height: 50pt;
+    margin-bottom: 50px;
+}
+.achieve__heading-text--super-small {
+    font-size: 45pt;
+    line-height: 50pt;
+    margin-bottom: 50px;
+}
+.achieve__main-text {
+    padding-bottom: 30px;
+}
+.achieve__artistic, .achieve__description {
+    font-family: 'Verdana', sans-serif;
+}
+.achieve__artistic {
+    font-style: italic;
+    font-size: 20pt;
+}
+.achieve__image {
+    background: url('/image.png') no-repeat;
+    width: 300px;
+    height: 309px;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.achieve__description {
+    font-size: 25pt;
+}
+.clearfix {
+    clear: both;
+}

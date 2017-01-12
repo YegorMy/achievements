@@ -1,0 +1,13 @@
+{
+  "name": "achievements",
+  "version": "1.0.0",
+  "description": "Create your achievements for any purpose!",
+  "main": "index.js",
+  "dependencies": {
+    "node-static": "^0.7.9",
+    "phantomjs": "^2.1.7",
+    "rimraf": "^2.5.4"
+  },
+  "author": "YegorMY <egorsm00@gmail.com>",
+  "license": "ISC"
+}
